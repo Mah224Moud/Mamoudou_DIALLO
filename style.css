@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/************ Menu *************/
+nav
+{
+    position: relative;
+}
+nav .aff
+{
+    height: 49px;
+    width: 100%;
+}
+.afficher
+{
+    float: right;
+}
+.afficher ul li
+{
+    float: left;
+    padding: 10px;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+
+/********** En commun *************/
+ul li a
+{
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 20px;
+}
+ul li a:hover
+{
+    background-color: brown;
+    transition: ease-in-out 1s;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Quintessential', cursive;
+    font-weight: bold;
+
+}
+
+
+
+
+/************* Menu cacher **********/
+.btn-opened, .btn-closed
+{
+    cursor: pointer;
+}
+.cacher
+{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: none;
+    transition: ease-in-out 1s;
+}
+.btn-opened
+{
+    display: none;
+}
+
+.cacher ul li
+{
+    display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    padding: 15px;
+}
+
+.bienvenue
+{
+    position: relative;
+}
+
+
+/**************** Titre de bienvenue ******/
+h1
+{
+    text-align: center;
+    position: relative;
+}
+.test
+{
+    font-family: 'Quintessential', cursive;
+}
+
+
+
+
+
+
+/****************** Profil **********/
+
+#profil
+{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    padding-top: 15px
+}
+.profil-img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 2%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    transition: ease-in-out 1.5s;
+}
+
+.profil-img:hover
+{
+    height: 170px;
+    width: 170px;
+    transition: ease-in-out 1.5s;
+}
+
+
+/***************** About **********************/
+h2, h4
+{
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    padding: 15px 0;
+}
+
+.about
+{
+    margin: 15px 5px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+
+}
+
+/********* photo dans about *********/
+#profil-img
+{
+    height: 300px;
+    border-radius: 15px;
+    transition: ease-in-out 1s;
+}
+
+#profil-img:hover
+{
+    transition: ease-in-out 1s;
+    height: 450px;
+}
+/**************** Infos ****************/
+
+#nom
+{
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    color: brown;
+    font-size: 35px;
+    padding: 15px 0;
+}
+h4
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.list
+{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+    padding: 10px 0;
+}
+
+
+/********** FORMATIONS && COMPETENCES **********/
+
+h3
+{
+    color: brown;
+    font-family: 'Quintessential', cursive;
+    text-align: center;
+}
+
+
+
+
+/************ Footer **************/
+
+.logo
+{
+    border-radius: 50%;
+    height: 50px;
+    transition: ease-in-out 1s;
+}
+a
+{
+    text-decoration: none;
+}
+
+#reseaux
+{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: center;
+}
+
+.logo:hover
+{
+    height: 60px;
+    transition: ease-in-out 1s;
+}
+
+/*************************************/
+
+.boite
+{
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin: 20px 10%;
+    box-shadow: 0 10px 19px 5px black;
+    transition: ease-in-out 1s;
+}
+.boite:hover
+{
+    transition: ease-in-out 1s;
+    margin: 10px 0;
+    background-color: gray;
+}
+em
+{
+    font-weight: bold;
+}
