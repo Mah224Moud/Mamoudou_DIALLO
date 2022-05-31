@@ -4,8 +4,14 @@
 {
     margin: 0;
     padding: 0;
+    
 }
 
+body
+{
+    background-color: rgb(28, 28, 28);
+    color: whitesmoke
+}
 
 /************ Menu *************/
 nav
@@ -39,10 +45,12 @@ ul li a
     background-color: whitesmoke;
     padding: 5px;
     border-radius: 20px;
+    transition: ease-in-out 1s;
 }
 ul li a:hover
 {
     background-color: brown;
+    color: whitesmoke;
     transition: ease-in-out 1s;
 }
 
@@ -145,7 +153,8 @@ h1
 
 
 /***************** About **********************/
-h2, h4
+
+.link, h4
 {
     text-align: center;
     font-family: 'Quintessential', cursive;
@@ -162,6 +171,19 @@ h2, h4
 	align-items: center;
 	align-content: center;
 
+}
+
+.call, .phone
+{
+    color: white;
+}
+.call:hover, .phone:hover
+{
+    text-decoration: underline;
+}
+i
+{
+    font-size: 1.5rem;
 }
 
 /********* photo dans about *********/
@@ -183,7 +205,7 @@ h2, h4
 {
     text-align: center;
     font-family: 'Quintessential', cursive;
-    color: brown;
+    color: red;
     font-size: 35px;
     padding: 15px 0;
 }
@@ -203,15 +225,20 @@ h4
     padding: 10px 0;
 }
 
+.list p
+{
+    margin: 5px;
+}
 
 /********** FORMATIONS && COMPETENCES **********/
 
 h3
 {
-    color: brown;
+    color: red;
     font-family: 'Quintessential', cursive;
     text-align: center;
 }
+
 
 
 
@@ -249,17 +276,18 @@ a
 
 .boite
 {
-    border-radius: 20px;
-    background-color: whitesmoke;
+    border-radius: 30px;
+    background-color: black;
+    color: whitesmoke;
     margin: 20px 10%;
     box-shadow: 0 10px 19px 5px black;
     transition: ease-in-out 1s;
+    padding: 10px;
 }
 .boite:hover
 {
     transition: ease-in-out 1s;
     margin: 10px 0;
-    background-color: gray;
 }
 em
 {
