@@ -1,61 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 
-*
-{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
 
-body
-{
+body {
     background-color: rgb(28, 28, 28);
     color: whitesmoke
 }
 
 /************ Menu *************/
-nav
-{
+nav {
     position: relative;
 }
-nav .aff
-{
+
+nav .aff {
     height: 49px;
     width: 100%;
 }
-.afficher
-{
+
+.afficher {
     float: right;
 }
-.afficher ul li
-{
+
+.afficher ul li {
     float: left;
     padding: 10px;
 }
 
-li
-{
+li {
     list-style-type: none;
 }
 
 
 /********** En commun *************/
-ul li a
-{
+ul li a {
     background-color: whitesmoke;
     padding: 5px;
     border-radius: 20px;
     transition: ease-in-out 1s;
 }
-ul li a:hover
-{
+
+ul li a:hover {
     background-color: brown;
     color: whitesmoke;
     transition: ease-in-out 1s;
 }
 
-ul li a
-{
+ul li a {
     text-decoration: none;
     color: black;
     font-family: 'Quintessential', cursive;
@@ -67,48 +61,45 @@ ul li a
 
 
 /************* Menu cacher **********/
-.btn-opened, .btn-closed
-{
+.btn-opened,
+.btn-closed {
     cursor: pointer;
 }
-.cacher
-{
+
+.cacher {
     position: relative;
     height: 300px;
     width: 100%;
     display: none;
     transition: ease-in-out 1s;
 }
-.btn-opened
-{
+
+.btn-opened {
     display: none;
 }
 
-.cacher ul li
-{
+.cacher ul li {
     display: flex;
     flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     padding: 15px;
 }
 
-.bienvenue
-{
+.bienvenue {
     position: relative;
 }
 
 
 /**************** Titre de bienvenue ******/
-h1
-{
+h1 {
     text-align: center;
     position: relative;
 }
-.test
-{
+
+.test {
     font-family: 'Quintessential', cursive;
 }
 
@@ -119,33 +110,31 @@ h1
 
 /****************** Profil **********/
 
-#profil
-{
+#profil {
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     padding-top: 15px
 }
-.profil-img
-{
+
+.profil-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin: 0 2%;
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     transition: ease-in-out 1.5s;
 }
 
-.profil-img:hover
-{
+.profil-img:hover {
     height: 170px;
     width: 170px;
     transition: ease-in-out 1.5s;
@@ -154,86 +143,82 @@ h1
 
 /***************** About **********************/
 
-.link, h4
-{
+.link,
+h4 {
     text-align: center;
     font-family: 'Quintessential', cursive;
     padding: 15px 0;
 }
 
-.about
-{
+.about {
     margin: 15px 5px;
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 
 }
 
-.call, .phone
-{
+.call,
+.phone {
     color: white;
 }
-.call:hover, .phone:hover
-{
+
+.call:hover,
+.phone:hover {
     text-decoration: underline;
 }
-i
-{
+
+i {
     font-size: 1.5rem;
 }
 
 /********* photo dans about *********/
-#profil-img
-{
+#profil-img {
     height: 300px;
     border-radius: 15px;
     transition: ease-in-out 1s;
 }
 
-#profil-img:hover
-{
+#profil-img:hover {
     transition: ease-in-out 1s;
     height: 450px;
 }
+
 /**************** Infos ****************/
 
-#nom
-{
+#nom {
     text-align: center;
     font-family: 'Quintessential', cursive;
     color: red;
     font-size: 35px;
     padding: 15px 0;
 }
-h4
-{
+
+h4 {
     font-weight: bold;
     font-size: 20px;
 }
-.list
-{
+
+.list {
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
     padding: 10px 0;
 }
 
-.list p
-{
+.list p {
     margin: 5px;
 }
 
 /********** FORMATIONS && COMPETENCES **********/
 
-h3
-{
+h3 {
     color: red;
     font-family: 'Quintessential', cursive;
     text-align: center;
@@ -245,51 +230,60 @@ h3
 
 /************ Footer **************/
 
-.logo
-{
+.logo {
     border-radius: 50%;
     height: 50px;
     transition: ease-in-out 1s;
 }
-a
-{
+
+a {
     text-decoration: none;
 }
 
-#reseaux
-{
+#reseaux {
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: stretch;
-	align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center;
 }
 
-.logo:hover
-{
+.logo:hover {
     height: 60px;
     transition: ease-in-out 1s;
 }
 
 /*************************************/
 
-.boite
-{
+.boite {
     border-radius: 30px;
-    background-color: black;
+    background-color: rgb(43, 40, 40);
     color: whitesmoke;
     margin: 20px 10%;
     box-shadow: 0 10px 19px 5px black;
     transition: ease-in-out 1s;
     padding: 10px;
 }
-.boite:hover
-{
+
+.boite:hover {
     transition: ease-in-out 1s;
     margin: 10px 0;
 }
-em
-{
+
+em {
     font-weight: bold;
+}
+
+
+.download {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.download button {
+    padding: 10px;
+    font-size: larger;
 }
